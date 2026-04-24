@@ -1,0 +1,14 @@
+{
+  "name": "proj_1777045524352",
+  "version": "0.1.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node test/test.js",
+    "lint": "echo \"no lint configured\"",
+    "docker-build": "docker build -t proj_1777045524352:latest .",
+    "docker-run": "docker run --rm -p 3000:3000 --env-file .env proj_1777045524352:latest"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
